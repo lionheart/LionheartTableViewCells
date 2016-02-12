@@ -6,12 +6,12 @@
 //
 //
 
-class TableViewCellDefault: UITableViewCell {
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+public class TableViewCellDefault: UITableViewCell {
+    public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .Default, reuseIdentifier: reuseIdentifier)
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
