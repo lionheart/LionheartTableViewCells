@@ -19,20 +19,17 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/LionheartTableViewCells"
+  s.homepage         = "https://github.com/lionheart/LionheartTableViewCells"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "Dan Loewenherz" => "dloewenherz@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/LionheartTableViewCells.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.license          = 'Apache 2.0'
+  s.author           = { "Dan Loewenherz" => "dan@lionheartsw.com" }
+  s.source           = { :git => "https://github.com/lionheart/LionheartTableViewCells.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/lionheartsw'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'LionheartTableViewCells' => ['Pod/Assets/*.png']
-  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
