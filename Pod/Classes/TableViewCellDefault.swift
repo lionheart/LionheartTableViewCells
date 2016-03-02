@@ -6,7 +6,9 @@
 //
 //
 
-public class TableViewCellDefault: UITableViewCell {
+public class TableViewCellDefault: UITableViewCell, LionheartTableViewCell {
+    public static var identifier: String = "DefaultCellIdentifier"
+
     public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .Default, reuseIdentifier: reuseIdentifier)
     }

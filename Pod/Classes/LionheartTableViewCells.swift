@@ -6,13 +6,6 @@
 //
 //
 
-extension UITableViewCellStyle {
-    var identifier: String {
-        switch self {
-        case .Default: return "CellIdentifier"
-        case .Subtitle: return "SubtitleCellIdentifier"
-        case .Value1: return "Value1CellIdentifier"
-        case .Value2: return "Value2CellIdentifier"
-        }
-    }
+public protocol LionheartTableViewCell {
+    static var identifier: String { get }
 }

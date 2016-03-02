@@ -6,7 +6,9 @@
 //
 //
 
-public class TableViewCellSubtitle: UITableViewCell {
+public class TableViewCellSubtitle: UITableViewCell, LionheartTableViewCell {
+    public static var identifier: String = "SubtitleCellIdentifier"
+
     public override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: .Subtitle, reuseIdentifier: reuseIdentifier)
     }
