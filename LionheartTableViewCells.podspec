@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "LionheartTableViewCells"
-  s.version          =  "1.0.0"
+  s.version          =  "1.1.0"
   s.summary          = "Register table view cells with default styles without needing to subclass them."
   s.homepage         = "https://github.com/lionheart/LionheartTableViewCells"
   s.license          = 'Apache 2.0'
