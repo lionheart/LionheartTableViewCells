@@ -1,6 +1,6 @@
 # LionheartTableViewCells
 
-[![CI Status](http://img.shields.io/travis/Dan Loewenherz/LionheartTableViewCells.svg?style=flat)](https://travis-ci.org/Dan Loewenherz/LionheartTableViewCells)
+[![CI Status](http://img.shields.io/travis/lionheart/LionheartTableViewCells.svg?style=flat)](https://travis-ci.org/lionheart/LionheartTableViewCells)
 [![Version](https://img.shields.io/cocoapods/v/LionheartTableViewCells.svg?style=flat)](http://cocoapods.org/pods/LionheartTableViewCells)
 [![License](https://img.shields.io/cocoapods/l/LionheartTableViewCells.svg?style=flat)](http://cocoapods.org/pods/LionheartTableViewCells)
 [![Platform](https://img.shields.io/cocoapods/p/LionheartTableViewCells.svg?style=flat)](http://cocoapods.org/pods/LionheartTableViewCells)
@@ -22,8 +22,8 @@ pod "LionheartTableViewCells"
 
 ## Author
 
-Dan Loewenherz, dloewenherz@gmail.com
+Dan Loewenherz, dan@lionheartsw.com
 
 ## License
 
-LionheartTableViewCells is available under the MIT license. See the LICENSE file for more info.
+LionheartTableViewCells is available under the Apache 2.0 license. See the [LICENSE](LICENSE) file for more info.
